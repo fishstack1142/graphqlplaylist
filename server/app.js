@@ -16,7 +16,7 @@ mongoose.connect(
 );
 
 mongoose.connection.once("open", () => {
-  console.log("connected to mongo atlas in the clous as a service");
+  console.log("connected to mongo atlas in the cloud as a service");
 });
 
 // bind express with graphql
